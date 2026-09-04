@@ -46,23 +46,17 @@ Explore the full project archive in the [portfolio](https://portfolio-project-90
 | **Tools & Platforms** | `Docker` · `Git` · `GitHub` · `Microsoft Power BI` · `Microsoft Power Apps` · `Google Cloud Platform` · `n8n` · `Microsoft Power Automate` · `OpenAI` · `Gmail` · `Google Sheets` · `Google Calendar` · `Playwright` · `Vercel` · `Terraform` · `Hostinger` · `Dokploy` |
 | **Soft Skills** | Adaptability · Problem Solving · Teamwork · Work Ethic |
 
+### Stack constellation
+
+<p align="center">
+  <img src="./assets/tech-stack-constellation.svg" alt="Colorful constellation of Paolo's languages, frameworks, data platforms, delivery tools, and engineering strengths" />
+</p>
+
 ## Engineering principles
 
 - **Make systems understandable:** document decisions, keep boundaries explicit, and prefer simple flows that are easy to inspect.
 - **Keep humans in control:** design AI and automation with safe defaults, authorization checkpoints, and grounded outputs.
 - **Ship with confidence:** use focused tests, end-to-end checks, and repeatable delivery workflows before calling work complete.
-
-## GitHub activity
-
-<p align="center">
-  <a href="https://github.com/zylush">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=zylush&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=2f6de1&icon_color=e8a83e&text_color=5b6675&custom_title=Paolo%27s%20GitHub%20overview" alt="Paolo's GitHub statistics" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=zylush&bg_color=ffffff00&color=5b6675&line=2f6de1&point=e8a83e&area=true&hide_border=true&custom_title=Contribution%20activity" alt="GitHub contribution activity for zylush" />
-</p>
 
 <div align="center">
   <sub>Building useful systems, one careful boundary at a time.</sub>
