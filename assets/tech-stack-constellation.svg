@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" role="img" aria-labelledby="title description">
+  <title id="title">Paolo's tech stack constellation</title>
+  <desc id="description">A colorful constellation connecting Paolo's core languages, frameworks, data platforms, delivery tools, and engineering strengths.</desc>
+
+  <defs>
+    <linearGradient id="coreGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#19345f" />
+      <stop offset="1" stop-color="#0b172d" />
+    </linearGradient>
+    <filter id="coreShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0b172d" flood-opacity="0.22" />
+    </filter>
+    <style>
+      .panel { fill: #f8fafc; fill-opacity: .92; stroke: #dbe4f0; stroke-width: 2; }
+      .panel-title { fill: #152238; font: 700 20px 'Inter', 'Segoe UI', Arial, sans-serif; }
+      .panel-subtitle { fill: #5b6675; font: 400 13px 'Inter', 'Segoe UI', Arial, sans-serif; }
+      .chip-label { font: 600 13px 'Inter', 'Segoe UI', Arial, sans-serif; }
+      .connector { fill: none; stroke-width: 3; stroke-linecap: round; stroke-dasharray: 2 12; opacity: .72; }
+      .core-label { fill: #ffffff; font: 700 23px 'Inter', 'Segoe UI', Arial, sans-serif; text-anchor: middle; }
+      .core-subtitle { fill: #c9d7ec; font: 400 12px 'Inter', 'Segoe UI', Arial, sans-serif; text-anchor: middle; }
+      @media (prefers-color-scheme: dark) {
+        .panel { fill: #111c30; fill-opacity: .95; stroke: #31415e; }
+        .panel-title { fill: #f5f8ff; }
+        .panel-subtitle { fill: #aab8cf; }
+      }
+    </style>
+  </defs>
+
+  <!-- Connectors keep the visual hierarchy centered on systems thinking. -->
+  <path class="connector" d="M 545 270 C 465 220, 370 170, 330 150" stroke="#2563eb" />
+  <path class="connector" d="M 655 270 C 735 220, 830 170, 870 150" stroke="#db2777" />
+  <path class="connector" d="M 550 350 C 470 390, 380 445, 340 465" stroke="#7c3aed" />
+  <path class="connector" d="M 650 350 C 730 390, 820 445, 860 465" stroke="#0f766e" />
+  <path class="connector" d="M 600 375 L 600 505" stroke="#f59e0b" />
+
+  <!-- Languages -->
+  <g>
+    <rect class="panel" x="40" y="45" width="330" height="185" rx="16" />
+    <rect x="66" y="70" width="52" height="6" rx="3" fill="#2563eb" />
+    <text class="panel-title" x="66" y="108">Languages</text>
+    <text class="panel-subtitle" x="66" y="130">build the foundation</text>
+    <g>
+      <rect x="66" y="151" width="105" height="32" rx="16" fill="#2563eb" />
+      <text class="chip-label" x="118" y="172" fill="#ffffff" text-anchor="middle">Python</text>
+      <rect x="181" y="151" width="128" height="32" rx="16" fill="#1d4ed8" />
+      <text class="chip-label" x="245" y="172" fill="#ffffff" text-anchor="middle">TypeScript</text>
+      <rect x="66" y="191" width="105" height="32" rx="16" fill="#60a5fa" />
+      <text class="chip-label" x="118" y="212" fill="#10213d" text-anchor="middle">C++</text>
+      <rect x="181" y="191" width="128" height="32" rx="16" fill="#93c5fd" />
+      <text class="chip-label" x="245" y="212" fill="#10213d" text-anchor="middle">SQL</text>
+    </g>
+  </g>
+
+  <!-- Frameworks and AI -->
+  <g>
+    <rect class="panel" x="830" y="45" width="330" height="185" rx="16" />
+    <rect x="856" y="70" width="52" height="6" rx="3" fill="#db2777" />
+    <text class="panel-title" x="856" y="108">Frameworks &amp; AI</text>
+    <text class="panel-subtitle" x="856" y="130">turn ideas into products</text>
+    <g>
+      <rect x="856" y="151" width="105" height="32" rx="16" fill="#db2777" />
+      <text class="chip-label" x="908" y="172" fill="#ffffff" text-anchor="middle">React</text>
+      <rect x="971" y="151" width="128" height="32" rx="16" fill="#be185d" />
+      <text class="chip-label" x="1035" y="172" fill="#ffffff" text-anchor="middle">FastAPI</text>
+      <rect x="856" y="191" width="105" height="32" rx="16" fill="#f472b6" />
+      <text class="chip-label" x="908" y="212" fill="#4a1230" text-anchor="middle">Vite</text>
+      <rect x="971" y="191" width="128" height="32" rx="16" fill="#f9a8d4" />
+      <text class="chip-label" x="1035" y="212" fill="#4a1230" text-anchor="middle">RAG</text>
+    </g>
+  </g>
+
+  <!-- Data -->
+  <g>
+    <rect class="panel" x="40" y="405" width="350" height="185" rx="16" />
+    <rect x="66" y="430" width="52" height="6" rx="3" fill="#7c3aed" />
+    <text class="panel-title" x="66" y="468">Data</text>
+    <text class="panel-subtitle" x="66" y="490">ground decisions in reliable systems</text>
+    <g>
+      <rect x="66" y="511" width="120" height="32" rx="16" fill="#7c3aed" />
+      <text class="chip-label" x="126" y="532" fill="#ffffff" text-anchor="middle">PostgreSQL</text>
+      <rect x="196" y="511" width="105" height="32" rx="16" fill="#6d28d9" />
+      <text class="chip-label" x="248" y="532" fill="#ffffff" text-anchor="middle">Supabase</text>
+      <rect x="66" y="551" width="120" height="32" rx="16" fill="#a78bfa" />
+      <text class="chip-label" x="126" y="572" fill="#25104f" text-anchor="middle">Upstash</text>
+      <rect x="196" y="551" width="105" height="32" rx="16" fill="#c4b5fd" />
+      <text class="chip-label" x="248" y="572" fill="#25104f" text-anchor="middle">MongoDB</text>
+    </g>
+  </g>
+
+  <!-- Delivery and quality -->
+  <g>
+    <rect class="panel" x="810" y="405" width="350" height="185" rx="16" />
+    <rect x="836" y="430" width="52" height="6" rx="3" fill="#0f766e" />
+    <text class="panel-title" x="836" y="468">Delivery &amp; quality</text>
+    <text class="panel-subtitle" x="836" y="490">ship with confidence</text>
+    <g>
+      <rect x="836" y="511" width="105" height="32" rx="16" fill="#0f766e" />
+      <text class="chip-label" x="888" y="532" fill="#ffffff" text-anchor="middle">Docker</text>
+      <rect x="951" y="511" width="105" height="32" rx="16" fill="#115e59" />
+      <text class="chip-label" x="1003" y="532" fill="#ffffff" text-anchor="middle">GCP</text>
+      <rect x="836" y="551" width="105" height="32" rx="16" fill="#5eead4" />
+      <text class="chip-label" x="888" y="572" fill="#0b3f3c" text-anchor="middle">n8n</text>
+      <rect x="951" y="551" width="105" height="32" rx="16" fill="#99f6e4" />
+      <text class="chip-label" x="1003" y="572" fill="#0b3f3c" text-anchor="middle">Playwright</text>
+    </g>
+  </g>
+
+  <!-- Engineering strengths -->
+  <g>
+    <rect class="panel" x="420" y="495" width="360" height="140" rx="16" />
+    <rect x="446" y="520" width="52" height="6" rx="3" fill="#f59e0b" />
+    <text class="panel-title" x="446" y="555">Engineering strengths</text>
+    <g>
+      <rect x="446" y="573" width="150" height="32" rx="16" fill="#f59e0b" />
+      <text class="chip-label" x="521" y="594" fill="#4a2a00" text-anchor="middle">Backend architecture</text>
+      <rect x="606" y="573" width="148" height="32" rx="16" fill="#fbbf24" />
+      <text class="chip-label" x="680" y="594" fill="#4a2a00" text-anchor="middle">AI workflows</text>
+    </g>
+  </g>
+
+  <!-- Central identity -->
+  <g filter="url(#coreShadow)">
+    <circle cx="600" cy="312" r="72" fill="url(#coreGradient)" />
+    <circle cx="600" cy="312" r="63" fill="none" stroke="#ffffff" stroke-opacity=".18" stroke-width="2" />
+    <text class="core-label" x="600" y="309">PAO</text>
+    <text class="core-subtitle" x="600" y="331">systems builder</text>
+  </g>
+</svg>
