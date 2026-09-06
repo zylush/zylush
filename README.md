@@ -46,12 +46,6 @@ Explore the full project archive in the [portfolio](https://portfolio-project-90
 | **Tools & Platforms** | `Docker` · `Git` · `GitHub` · `Microsoft Power BI` · `Microsoft Power Apps` · `Google Cloud Platform` · `n8n` · `Microsoft Power Automate` · `OpenAI` · `Gmail` · `Google Sheets` · `Google Calendar` · `Playwright` · `Vercel` · `Terraform` · `Hostinger` · `Dokploy` |
 | **Soft Skills** | Adaptability · Problem Solving · Teamwork · Work Ethic |
 
-### Stack constellation
-
-<p align="center">
-  <img src="./assets/tech-stack-constellation.svg" alt="Colorful constellation of Paolo's languages, frameworks, data platforms, delivery tools, and engineering strengths" />
-</p>
-
 ## Engineering principles
 
 - **Make systems understandable:** document decisions, keep boundaries explicit, and prefer simple flows that are easy to inspect.
